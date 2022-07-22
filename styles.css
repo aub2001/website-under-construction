@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
+
+#painter {
+    height: 40%;
+    width: 40%;
+    margin-left: 18vw;
+    margin-top: 36vh;
+}
+
+#paint-line{
+    height: 70vh;
+    width: 4vw;
+    background-color:  #e23234;
+    position: absolute;
+    left: 20vw;
+}
+
+#text{
+    height: 20vh;
+    width: 35vw;
+    position: absolute;
+    top: 30vh;
+    left: 35vw;
+    text-align: right;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 4vw;
+    color: dimgrey;
+}
+
+#text-con{
+    height: 10vh;
+    width: 30vw;
+    position: absolute;
+    top: 30vh;
+    margin-top: 4vw;
+    left: 40vw;
+    text-align: right;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 4vw;
+    color: dimgrey;
+}
+
+.links{
+    height: 4vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.links img{
+    margin-left: 4vw;
+    height: 30px;
+    width: 30px;
+}
+
+.links img:hover{
+    border-bottom: 1px solid gray;
+}
+
+#timer{
+    color: lightslategray;
+    position: absolute;
+    left: 60vw;
+    top: 25vh; 
+    font-size: 1vw;
+    border-bottom: 1px solid lightslategray;
+}
